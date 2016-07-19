@@ -1,0 +1,28 @@
+{
+  "name": "facebookchatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"hello world!\");"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuwe1/facebookchatbot.git"
+  },
+  "keywords": [
+    "chatbot",
+    "facebook",
+    "messenger",
+    "platform"
+  ],
+  "author": "nuwe1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuwe1/facebookchatbot/issues"
+  },
+  "homepage": "https://github.com/nuwe1/facebookchatbot#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
