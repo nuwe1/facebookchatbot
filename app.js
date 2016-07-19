@@ -1,5 +1,15 @@
 var express = require('express');
 var app = express();
+/*to serve staticfiles that are in the public 
+directory use the express.static built in 
+middleware function
+*/
+/*
+app.use(express.static('public'));
+app.use(express.static('filesfolder'));
+app.use('/static', express.static('public'));
+app.use('/static', express.static(__dirname + '/public'));
+*/
 
 app.get('/' ,function (req, res){
 	res.send('Hello World!');
